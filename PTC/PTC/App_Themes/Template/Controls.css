@@ -1,0 +1,459 @@
+﻿
+/* Text Box*/
+.txtSearch
+{
+	background:#FFFFFF url(../../Images/tm_item_search.png) no-repeat 4px 4px;
+	padding:4px 4px 4px 22px;
+	border:1px solid #c5dcec;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	border-radius:5px;
+	width:230px;
+	height:18px;  
+}
+
+.checkbox
+{
+    position:absolute;
+    margin:0px 0px 0px 75px;
+    
+}
+
+.commentTextBox
+{
+    border:none;
+    resize:none;
+    width:598px;
+    height:75px;
+    border:0px solid red;    
+}
+
+.textbox
+{
+    border:1px solid #cccccc; 
+    background-color:#ffffff;
+    color:Black;
+	padding: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;	
+	border-radius:3px;
+}
+
+/*
+.textbox:hover
+{    
+    background-color:#f8f9fb;
+    border:1px solid #3e88b8;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	border-radius:5px;
+}*/
+
+.textbox:focus
+{
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+
+   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+}
+
+.textbox:hover
+{
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+
+   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+}
+
+.textbox:invalid
+{
+    border:1px solid black;      
+}
+
+/*End Text Box*/
+
+/*Button*/
+
+.button
+{
+    cursor:pointer;
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	border-radius:5px;
+    border:1px solid #cccccc; 
+    background-color:#ebebeb;
+    color:Black;
+    text-decoration:none;
+}
+.button:focus
+{
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+
+   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);  
+}
+
+.button:link
+{
+    border:1px solid #f2f2f2;    
+    
+}
+
+.button:hover
+{
+
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    background-color:#ffffff;
+    /* IE6-9 */
+
+   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);  
+}
+
+
+/*End Button*/
+
+/*Grid View */
+
+/* End Grid View */
+
+/*Data Pager*/
+
+.NumericButtonCSS:hover
+{
+    background-color:#ffffff;   
+    color:#000000; 
+}
+
+.NumericButtonCSS  
+        {  
+            font-size:large;  
+            font-family:Courier New;  
+            font-weight:bold;  
+            text-decoration:none;
+            border:1px solid #cccccc; 
+            background-color:#ebebeb;
+            color:Black;
+	        padding:1px 5px 1px 5px;
+            }    
+        .CurrentPageLabelCSS  
+        {  
+        	text-decoration:underline;
+            font-size:large;  
+            font-family:Courier New;  
+            color:#3e88b8;  
+            font-weight:bold;  
+            background-color:#f8f9fb;
+            border:1px solid #3e88b8;    
+	        padding:1px 5px 1px 5px;
+            }   
+        .NextPreviousButtonCSS  
+        {  
+        	text-decoration:none;
+            font-size:large;  
+            font-family:Courier New;  
+            color:White;  
+            font-weight:bold;  
+            border: 1px solid black;
+	        background-color:Yellow;
+        }           
+/*End Data Pager*/
+
+
+
+/*Hyper Link*/
+.poem_categories
+{
+	color:#0669d7;	
+	text-decoration:none;
+}
+
+.poem_categories :link :visited
+{
+	color:Yellow;	
+}
+
+.poem_categories :hover
+{
+	text-decoration:underline;
+	color:Red;	
+}
+
+.hyperlink
+{
+	text-decoration:none;
+	color:Purple;
+}
+
+.hyperlink:hover
+{
+	text-decoration:underline;
+	color:Orange;
+}
+/*End Hyper Link*/
+
+
+/*GridView*/
+.GridView_Header
+{
+    background:#FFFFFF url(../../Images/gvheader_bg.gif) repeat-x;
+    height:30px;
+    text-align:left;
+}
+.GridView_Footer
+{
+    background:#FFFFFF url(../../Images/gvfooter_bg.gif) repeat-x;  
+}
+.GridView_Pager
+{
+    background:#FFFFFF url(../../Images/gvfooter_bg.gif) repeat-x;  
+}
+.GridView_Pager table { margin: 0;padding:0;}
+.GridView_Pager td { padding: 3px 8px; border: solid 0px #dddddd; font-weight: bold; color: Red;}   
+.GridView_Pager a { color: #666; text-decoration: none;}
+.GridView_Pager a:hover { color: #000; text-decoration: underline;}
+        
+.GridView_Row
+{
+    background-color:#f9f9f9;	
+    border-bottom-color:Gray;
+}
+.GridView_Row:hover
+{
+    background: #FFF url(../../Images/table_tr_background.gif) repeat; color: #454545;	
+}
+.GridView_Select
+{
+    background: #FFF url(../../Images/table_tr_background.gif) repeat; color: #454545;	
+}
+.ItemTemplate_Row
+{
+    background-color:#f9f9f9;	
+}
+.ItemTemplate_Row:hover
+{
+    background: #FFF url(../../Images/table_tr_background.gif) repeat; color: #454545;	
+}
+.ItemTemplate_Row:focus
+{
+    background-color:Gray;	
+}
+.AlternatingItemTemplate_Row
+{
+    background-color:#ffffff;	
+}
+.AlternatingItemTemplate_Row:hover
+{
+    background: #FFF url(../../Images/table_tr_background.gif) repeat; color: #454545;	
+}
+.AlternatingItemTemplate_Row:focus
+{
+    background-color:Gray;	
+}
+/*End GridView*/
+
+/*Calendar Control CSS*/
+.cal_Theme1 .ajax__calendar_other .ajax__calendar_day,
+.cal_Theme1 .ajax__calendar_other .ajax__calendar_year
+{
+color:White; /*Your background color of calender control*/
+}
+.cal_Theme1 .ajax__calendar_container   {
+background-color: #DEF1F4;
+border:solid 1px #77D5F7;
+}
+
+.cal_Theme1 .ajax__calendar_header  {
+background-color: #ffffff;
+margin-bottom: 4px;
+}
+
+.cal_Theme1 .ajax__calendar_title,
+.cal_Theme1 .ajax__calendar_next,
+.cal_Theme1 .ajax__calendar_prev    {
+color: #004080;
+padding-top: 3px;
+}
+
+.cal_Theme1 .ajax__calendar_body    {
+background-color: #ffffff;
+border: solid 1px #77D5F7;
+}
+
+.cal_Theme1 .ajax__calendar_dayname {
+text-align:center;
+font-weight:bold;
+margin-bottom: 4px;
+margin-top: 2px;
+color: #004080;
+}
+
+.cal_Theme1 .ajax__calendar_day {
+color: #004080;
+text-align:center;
+}
+
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_day,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_month,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_year,
+.cal_Theme1 .ajax__calendar_active  {
+color: #004080;
+font-weight: bold;
+background-color: #DEF1F4;
+}
+
+.cal_Theme1 .ajax__calendar_today   {
+font-weight:bold;
+}
+
+.cal_Theme1 .ajax__calendar_other,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_today,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_title {
+color: #bbbbbb;
+}
+
+/*End Calendar Control CSS*/
+
+.fileUpload
+{
+	width: 100px; 
+	border-style: solid;
+}
+
+/*DropDownLIst*/
+.dropdownlist
+{
+    border:1px solid #cccccc;
+}
+
+.dropdownlist:focus
+{
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+
+   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+}
+
+.dropdownlist:hover
+{
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+
+   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+}
+/*End DropDownLIst*/
+
+/*Site Map*/
+.RootNodeStyle
+{
+     padding:0px 5px 0px 0px;    
+     text-decoration:none;
+     color:#666666;
+}
+
+.CurrentNodeStyle   
+{
+    font-weight:bold;
+    padding:0px 5px 0px 5px;    
+    text-decoration:none;
+    color:#666666;
+}
+
+.NodeStyle
+{
+     padding:0px 5px 0px 5px;    
+     text-decoration:none;
+     color:#666666;
+}
+/*End Site Map*/
+
+
+/*fieldset*/
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+	color:#777777;
+    font-size: 11pt;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+
+/*End fieldset*/
+
+autocomplete_completionListElement 
+{  
+	margin : 0px!important;
+	background-color : inherit;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height : 200px;
+    text-align : left; 
+    list-style-type : none;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color: #ffff99;
+	color: black;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}

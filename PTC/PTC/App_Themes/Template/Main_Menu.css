@@ -1,0 +1,271 @@
+﻿
+
+/*For Main Menu*/
+div.sys_main_logo 
+{
+    background-image: url('../../Images/header_bg.gif');
+    background-color: #f9f9f9;
+    position: relative;
+    z-index: 56;
+}
+div.sys_top_menu {
+   padding-top: 5px;
+   min-height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f7f7f7;
+    background-image	:	url(../../Images/menu_bg2.PNG);
+	background-repeat	:	repeat;
+    background-repeat: repeat-x;
+	border: 1px solid ;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+div.sys_top_menu a, div.sys_top_menu a:link, div.sys_top_menu a:visited, div.sys_top_menu a:active, div.sys_top_menu b {
+    font-size: 12px;
+}
+table#topMenu {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+table#topMenu td.top {
+    border-right: 2px solid transparent;
+    padding: 0;
+    position: relative;
+	top: 0px;
+	left: 268px;
+	width: 202px;
+}
+table#topMenu td.right {
+    border-right: 0 none;
+}
+#topMenu .top ul.sub {
+    background:url("../../Images/tm_smenu_bg.png") repeat-y scroll left top transparent;
+    display: none;
+    height: auto;
+    list-style: none outside none;
+    margin: 0;
+    padding: 2px 0 0;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 190px;
+    z-index: 20;
+}
+#topMenu .top ul.sub li {
+    line-height: 33px;
+    margin: 0;
+    min-height: 33px;
+    width: 100%;
+}
+.main_elements {
+    left: 0;
+}
+#mmm {
+    border-collapse: collapse;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+}
+#topMenu td.top:hover ul.sub {
+    display: block;
+    visibility: visible;
+}
+#topMenu td.top a:hover ul.sub, #topMenu td.top:hover ul.sub {
+    position: absolute;
+    right: 0;
+}
+#topMenu ul.more_sub {
+    list-style: none outside none;
+    margin-left: 18px;
+    padding: 0;
+}
+#topMenu ul.sub li:hover {
+    background:url("../../Images/tm_sitem_act.png") no-repeat scroll 0 0 transparent;
+    vertical-align: middle;
+}
+#topMenu ul.sub ul.more_sub li:hover {
+    background:url("../../Images/tm_smenu_sitem_act.png") no-repeat scroll 0 0 transparent;
+}
+#topMenu ul.sub .more_sub li {
+    background-image: none;
+    overflow: hidden;
+}
+#topMenu .more_down, #topMenu .more_right {
+    height: 31px;
+    margin: 0;
+    vertical-align: middle;
+    width: 9px;
+}
+#topMenu .more_down {
+    background:url("../../Images/icons/tm_sitem_down.gif") no-repeat scroll left 0 transparent;
+    margin-top: 1px;
+}
+#topMenu .more_right {
+    background:url("../../Images/icons/tm_sitem_right.gif") no-repeat scroll left 0 transparent;
+    margin-top: 1px;
+}
+#topMenu {
+    background-image: none;
+}
+#topMenu td {
+    background-color: transparent;
+    height: 31px;
+    margin-right: 0;
+    vertical-align: middle;
+}
+#topMenu a, #topMenu b {
+    line-height: 31px;
+	margin-left: 3px;
+}
+.subMenusContainer .subMenuOvr .subMenuInfoKeeper a, .subMenusContainer .subMenuOvr .subMenuInfoKeeper a:link, .subMenusContainer .subMenuOvr .subMenuInfoKeeper a:visited, .subMenusContainer .subMenuOvr .subMenuInfoKeepe
+#topMenu a, #topMenu a:link, #topMenu a:visited, #topMenu b {
+    background:url("../../Images/tm_item_left.png") no-repeat scroll 0 center transparent;
+    border-width: 0;
+    color: #666666;
+    display: block;
+    font-weight: normal;
+    margin: 0 0 0 0px;
+    padding: 0 0 0 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ansform: capitalize;
+}
+th: 0;
+    color: #666666;
+    display: block;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#topMenu a:focus {
+    outline: 0 none;
+}
+#topMenu a:hover, #topMenu a:active {
+    color: #333333;
+}
+#topMenu td#tm_active a.top_link, #topMenu td#tm_active a.top_link:link, #topMenu td#tm_active a.top_link:visited, #topMenu td#tm_active a.top_link:active {
+    background:url("../../Images/tm_item_left_act.png") no-repeat scroll 0 center transparent;
+    color: #000000;
+}
+#topMenu td.top:hover a.top_link, #topMenu td.top:hover a.top_link:link, #topMenu td.top:hover a.top_link:visited, #topMenu td.top:hover a.top_link:active {
+    background:url("../../Images/tm_item_left_act.png") no-repeat scroll 0 center transparent;
+}
+#topMenu b {
+    color: #000000;
+}
+#topMenu a span.down, #topMenu b span.down {
+    background:url("../../Images/tm_item_right.png") no-repeat scroll right top transparent;
+    cursor: pointer;
+    display: block;
+    padding: 0 5px 0 0;
+    text-align: center;
+}
+#topMenu a span.down img, #topMenu b span.down img {
+    height: 16px;
+    margin: 8px auto 7px;
+    vertical-align: middle;
+    width: 16px;
+}
+#topMenu td.top:hover a span.down, #topMenu td.top:hover b span.down {
+    background-image:url("../../Images/tm_item_right_act.png");
+}
+#topMenu td.top a:hover a span.down, #topMenu td.top a:hover b span.down {
+    background-image:url("../../Images/tm_item_right_act.png");
+}
+#topMenu td#tm_active a span.down {
+    background-image:url("../../Images/tm_item_right_act.png");
+}
+#topMenu ul.sub li a.menu_button {
+    background-image: none;
+    color: #666666;
+    cursor: pointer;
+    font-size: 12px;
+    height: 33px;
+    margin: 0 0 0 20px;
+    overflow: hidden;
+    padding-left: 0;
+    text-align: left;
+    width: 160px;
+}
+.more_down_tab_noimg {
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    width: 30px;
+}
+#topMenu .sub a.more_ntop_element:hover {
+    color: #333333;
+}
+#topMenu .sub a.more_top_element.active, #topMenu .sub a.more_ntop_element.active {
+    color: #333333;
+    font-weight: bold;
+}
+#topMenu .top ul.sub .li_last_round {
+    background: url("../../Images/tm_smenu_bottom.png") no-repeat scroll left top transparent;
+    font-size: 0;
+    height: 3px;
+    line-height: 0;
+    position: absolute;
+}
+#topMenu .top ul.sub .li_last_round:hover {
+    background: url("../../Images/tm_smenu_bottom.png") no-repeat scroll left top transparent;
+}
+
+/*End Menu*/
+
+
+/*Main Menu Images*/
+
+#main_menu_img_home
+{
+    background-image:url("../../Images/home.gif") ;
+    display: inline-block; /*For IE*/
+    zoom: 1; /*For IE*/
+    display: inline; /*For IE*/
+    background-repeat:no-repeat; 
+    padding:0px 10px 4px 10px;
+}
+
+#main_menu_img_profile
+{
+    background-image:url("../../Images/memeber_menu_profile.png") ;
+    display: inline-block; /*For IE*/
+    zoom: 1; /*For IE*/
+    display: inline; /*For IE*/
+    background-repeat:no-repeat; 
+    padding:0px 10px 4px 10px;
+}
+
+#main_menu_img_subscribe
+{
+    background-image:url("../../Images/icons/action_subscribe.png") ;
+    display: inline-block; /*For IE*/
+    zoom: 1; /*For IE*/
+    display: inline; /*For IE*/
+    background-repeat:no-repeat; 
+    padding:0px 10px 4px 10px;
+}
+
+#main_menu_img_message
+{
+    background-image:url("../../Images/memeber_menu_mail.png") ;
+    display: inline-block; /*For IE*/
+    zoom: 1; /*For IE*/
+    display: inline; /*For IE*/
+    background-repeat:no-repeat; 
+    padding:0px 10px 4px 10px;
+}
+/*End Main Menu Images*/

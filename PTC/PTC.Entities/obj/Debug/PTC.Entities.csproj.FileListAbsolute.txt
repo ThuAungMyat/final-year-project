@@ -1,0 +1,15 @@
+D:\MY PROJECT\PTC\PTC\PTC.Entities\bin\Debug\PTC.Entities.dll
+D:\MY PROJECT\PTC\PTC\PTC.Entities\bin\Debug\PTC.Entities.pdb
+D:\MY PROJECT\PTC\PTC\PTC.Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\MY PROJECT\PTC\PTC\PTC.Entities\obj\Debug\PTC.Entities.dll
+D:\MY PROJECT\PTC\PTC\PTC.Entities\obj\Debug\PTC.Entities.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.Entities\bin\Debug\PTC.Entities.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.Entities\bin\Debug\PTC.Entities.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.Entities\obj\Debug\PTC.Entities.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.Entities\obj\Debug\PTC.Entities.pdb
+F:\My Project\PTC\PTC.Entities\bin\Debug\PTC.Entities.dll
+F:\My Project\PTC\PTC.Entities\bin\Debug\PTC.Entities.pdb
+F:\My Project\PTC\PTC.Entities\obj\Debug\ResolveAssemblyReference.cache
+F:\My Project\PTC\PTC.Entities\obj\Debug\PTC.Entities.dll
+F:\My Project\PTC\PTC.Entities\obj\Debug\PTC.Entities.pdb

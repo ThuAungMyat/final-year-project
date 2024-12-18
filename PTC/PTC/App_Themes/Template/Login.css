@@ -1,0 +1,68 @@
+﻿
+/*For Login*/
+
+#login 
+{
+	position:relative; 
+}
+
+#login .select 
+{
+margin:0; 
+padding:0; 
+list-style:none; 
+white-space:nowrap;
+}
+
+#login li 
+{
+	float:left;
+}
+
+#login li.lrt {
+float:right;
+}
+
+#login .select a {
+display:block; 
+height:35px; 
+float:left; 
+padding:0 30px 0 20px; 
+text-decoration:none; 
+white-space:nowrap; 
+}
+
+#login .select a b {
+display:block;
+}
+
+#login .sub {
+position:absolute; left:-9999px; width:0;
+}
+
+/* IE6 only */
+
+#login .sub {
+margin:0; 
+padding:0;
+list-style:none;
+}
+
+#login .sub li {background:#;}
+
+#login .select :hover .sub {
+width:100%;
+top:20px; 
+left:-160px; 
+text-align:center;
+}
+
+#login .select :hover .rt li {float:right;position:absolute;}
+
+#login .select :hover {color:#;}
+
+#login .select :hover
+#login .select :hover
+{text-decoration:underline; color:Red; line-height:20px; position:relative;}
+
+/*End Login*/

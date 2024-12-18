@@ -1,0 +1,21 @@
+D:\MY PROJECT\PTC\PTC\PTC.DataAccess\bin\Debug\PTC.DataAccess.dll
+D:\MY PROJECT\PTC\PTC\PTC.DataAccess\bin\Debug\PTC.DataAccess.pdb
+D:\MY PROJECT\PTC\PTC\PTC.DataAccess\bin\Debug\PTC.Entities.dll
+D:\MY PROJECT\PTC\PTC\PTC.DataAccess\bin\Debug\PTC.Entities.pdb
+D:\MY PROJECT\PTC\PTC\PTC.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\MY PROJECT\PTC\PTC\PTC.DataAccess\obj\Debug\PTC.DataAccess.dll
+D:\MY PROJECT\PTC\PTC\PTC.DataAccess\obj\Debug\PTC.DataAccess.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.DataAccess\bin\Debug\PTC.DataAccess.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.DataAccess\bin\Debug\PTC.DataAccess.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.DataAccess\bin\Debug\PTC.Entities.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.DataAccess\bin\Debug\PTC.Entities.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.DataAccess\obj\Debug\PTC.DataAccess.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.DataAccess\obj\Debug\PTC.DataAccess.pdb
+F:\My Project\PTC\PTC.DataAccess\bin\Debug\PTC.DataAccess.dll
+F:\My Project\PTC\PTC.DataAccess\bin\Debug\PTC.DataAccess.pdb
+F:\My Project\PTC\PTC.DataAccess\bin\Debug\PTC.Entities.dll
+F:\My Project\PTC\PTC.DataAccess\bin\Debug\PTC.Entities.pdb
+F:\My Project\PTC\PTC.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\My Project\PTC\PTC.DataAccess\obj\Debug\PTC.DataAccess.dll
+F:\My Project\PTC\PTC.DataAccess\obj\Debug\PTC.DataAccess.pdb

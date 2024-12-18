@@ -1,0 +1,229 @@
+﻿/* Photo Border for All Pages Except the Albums Page */
+
+.photo-frame .topx-- {
+	background-image: url(Images/frame-topx--.gif);
+	background-repeat: no-repeat;
+	width: auto;
+	height: 4px;
+	vertical-align: top;
+}
+.photo-frame .top-x- {
+	background-image: url(Images/frame-top-x-.gif);
+	background-repeat: repeat-x;
+	width: auto;
+	height: 4px;
+}
+.photo-frame .top--x {
+	background-image: url(Images/frame-top--x.gif);
+	background-repeat: no-repeat;
+	width: auto;
+	height: 4px;
+	vertical-align: top;
+}
+
+.photo-frame .midx-- {
+	background-image: url(Images/frame-midx--.gif);
+	background-repeat: repeat-y;
+	width: 4px;
+	height: auto;
+}
+.photo-frame .mid--x {
+	background-image: url(Images/frame-mid--x.gif);
+	background-repeat: repeat-y;
+	width: 4px;
+	height: auto;
+}
+
+.photo-frame .botx-- {
+	background-image: url(Images/frame-botx--.gif);
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 4px;
+	vertical-align: top;
+}
+.photo-frame .bot-x- {
+	background-image: url(Images/frame-bot-x-.gif);
+	background-repeat: repeat-x;
+	width: auto;
+	height: 4px;
+}
+.photo-frame .bot--x {
+	background-image: url(Images/frame-bot--x.gif);
+	background-repeat: no-repeat;
+	width: 4px;
+	height: 4px;
+	vertical-align: bottom;
+}
+
+/* Photo Border for the Album Page */
+
+.album-frame .topx----,
+.album-frame .top----x,
+.album-frame .botx----,
+.album-frame .bot----x {
+	height: 14px;
+	width: 14px;
+}
+
+.album-frame .top-x--- {
+	background-image: url(images/album-tstretch.gif);
+	background-repeat: repeat-x;
+	text-align: left;
+	height: 14px;
+	width: auto;
+}
+.album-frame .top--x-- {
+	background-image: url(images/album-tstretch.gif);
+	background-repeat: repeat-x;
+	height: 14px;
+	width: auto;
+}
+.album-frame .top---x- {
+	background-image: url(images/album-tstretch.gif);
+	background-repeat: repeat-x;
+	text-align: right;
+	height: 14px;
+	width: auto;
+}
+
+.album-frame .mtpx---- {
+	background-image: url(images/album-lstretch.gif);
+	background-repeat: repeat-y;
+	vertical-align: top;
+	height: auto;
+	width: 14px;
+}
+.album-frame .mtp----x {
+	background-image: url(images/album-rstretch.gif);
+	background-repeat: repeat-y;
+	vertical-align: top;
+	height: auto;
+	width: 14px;
+}
+
+.album-frame .midx---- {
+	background-image: url(images/album-lstretch.gif);
+	background-repeat: repeat-y;
+	height: auto;
+	width: 14px;
+}
+.album-frame .mid----x {
+	background-image: url(images/album-rstretch.gif);
+	background-repeat: repeat-y;
+	height: auto;
+	width: 14px;
+}
+
+.album-frame .mbtx---- {
+	background-image: url(images/album-lstretch.gif);
+	background-repeat: repeat-y;
+	vertical-align: bottom;
+	height: auto;
+	width: 14px;
+}
+.album-frame .mbt----x {
+	background-image: url(images/album-rstretch.gif);
+	background-repeat: repeat-y;
+	vertical-align: bottom;
+	height: auto;
+	width: 14px;
+}
+
+.album-frame .bot-x--- {
+	background-image: url(images/album-bstretch.gif);
+	background-repeat: repeat-x;
+	text-align: right;
+	height: 14px;
+	width: auto;
+}
+.album-frame .bot--x-- {
+	background-image: url(images/album-bstretch.gif);
+	background-repeat: repeat-x;
+	height: 14px;
+	width: auto;
+}
+.album-frame .bot---x- {
+	background-image: url(images/album-bstretch.gif);
+	background-repeat: repeat-x;
+	text-align: left;
+	height: 14px;
+	width: auto;
+}
+
+
+.photo_198 {
+	border: 4px solid #FFFFFF;
+}
+
+
+
+/*JQuery Image*/
+ul.thumb
+{
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    width: 850px;
+}
+
+ul.thumb li
+{
+    margin: 0;
+    padding: 5px;
+    float: left;
+    position: relative;
+    width: 110px;
+    height: 110px;
+}
+
+ul.thumb li .imageContainer
+{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px;
+}
+
+ul.thumb li .imageContainer .imageTitle
+{
+    margin: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+ul.thumb li .imageContainer img
+{
+    width: 90px;
+    height: 90px;
+    background: #f0f0f0;
+    -ms-interpolation-mode: bicubic;
+    padding: 5px;
+}
+
+/* Change the image container background on mouse hover */
+ul.thumb li .imageContainer.hover
+{
+    background: url("../../Images/thumb_bg.png") no-repeat center center;
+    border: none;
+}
+
+/* Change the backgournd color of the Title on mouse hover*/
+ul.thumb li .imageContainer .imageTitleHover
+{
+    background: #f0f0f0;
+}
+
+/* Resize the thumbnail image on mouse hover*/
+ul.thumb li .imageContainer .imageHover
+{
+    width: 164px;
+    height: 150px;
+    background: #f0f0f0;
+    -ms-interpolation-mode: bicubic;
+    padding: 5px;
+}

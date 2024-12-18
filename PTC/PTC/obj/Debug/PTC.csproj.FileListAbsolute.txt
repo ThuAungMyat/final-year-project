@@ -1,0 +1,39 @@
+D:\MY PROJECT\PTC\PTC\PTC\bin\PTC.dll
+D:\MY PROJECT\PTC\PTC\PTC\bin\PTC.pdb
+D:\MY PROJECT\PTC\PTC\PTC\bin\PTC.BusinessLogic.dll
+D:\MY PROJECT\PTC\PTC\PTC\bin\PTC.DataAccess.dll
+D:\MY PROJECT\PTC\PTC\PTC\bin\PTC.Entities.dll
+D:\MY PROJECT\PTC\PTC\PTC\bin\PTC.Utilities.dll
+D:\MY PROJECT\PTC\PTC\PTC\bin\PTC.BusinessLogic.pdb
+D:\MY PROJECT\PTC\PTC\PTC\bin\PTC.DataAccess.pdb
+D:\MY PROJECT\PTC\PTC\PTC\bin\PTC.Entities.pdb
+D:\MY PROJECT\PTC\PTC\PTC\bin\PTC.Utilities.pdb
+D:\MY PROJECT\PTC\PTC\PTC\obj\Debug\ResolveAssemblyReference.cache
+D:\MY PROJECT\PTC\PTC\PTC\obj\Debug\PTC.dll
+D:\MY PROJECT\PTC\PTC\PTC\obj\Debug\PTC.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\bin\PTC.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\bin\PTC.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\bin\PTC.BusinessLogic.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\bin\PTC.DataAccess.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\bin\PTC.Entities.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\bin\PTC.Utilities.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\bin\PTC.BusinessLogic.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\bin\PTC.DataAccess.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\bin\PTC.Entities.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\bin\PTC.Utilities.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\obj\Debug\PTC.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC\obj\Debug\PTC.pdb
+F:\My Project\PTC\PTC\bin\PTC.dll
+F:\My Project\PTC\PTC\bin\PTC.pdb
+F:\My Project\PTC\PTC\bin\PTC.BusinessLogic.dll
+F:\My Project\PTC\PTC\bin\PTC.DataAccess.dll
+F:\My Project\PTC\PTC\bin\PTC.Entities.dll
+F:\My Project\PTC\PTC\bin\PTC.Utilities.dll
+F:\My Project\PTC\PTC\bin\PTC.BusinessLogic.pdb
+F:\My Project\PTC\PTC\bin\PTC.DataAccess.pdb
+F:\My Project\PTC\PTC\bin\PTC.Entities.pdb
+F:\My Project\PTC\PTC\bin\PTC.Utilities.pdb
+F:\My Project\PTC\PTC\obj\Debug\ResolveAssemblyReference.cache
+F:\My Project\PTC\PTC\obj\Debug\PTC.dll
+F:\My Project\PTC\PTC\obj\Debug\PTC.pdb

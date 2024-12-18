@@ -1,0 +1,100 @@
+﻿#left_menu
+{
+	height:auto;
+	width:156px;
+	vertical-align:top;
+	float:left;
+	margin:10px 0 10px 0px;
+	height:auto;
+	border:1px solid #cccccc;	
+	background-color:#fafafa;
+	-moz-border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	border-radius:5px 5px 0px 0px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+	
+.menu 
+{
+	margin-top:3px;
+	width: 145px;
+	border-color: #BCD2E6;
+	border-width: 0px;
+	}
+	
+.menu li a {
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	}	
+	
+.menu li a:link, .menu li a:visited {
+	color: #333333;
+	display: block;
+	background-color:#fafafa;
+	padding: 8px 0 0 10px;
+	}
+	
+.menu li a:hover {
+	color: #333333;
+	background-color:#ebebeb;
+	padding: 8px 0 0 10px;
+}
+	
+
+
+#left_menu_img_home
+{
+      background-image:url("../../Images/m.gif"); 
+      display: inline-block; /*For IE*/
+      zoom: 1; /*For IE*/
+      display: inline; /*For IE*/
+      background-repeat:no-repeat; 
+      padding:0px 10px 0px 10px;
+}
+
+#left_menu_img_photo
+{
+      background-image:url("../../Images/memeber_menu_friends.png"); 
+      display: inline-block; /*For IE*/
+      zoom: 1; /*For IE*/
+      display: inline; /*For IE*/
+      background-repeat:no-repeat; 
+      padding:0px 10px 0px 10px;
+}
+
+#left_menu_img_music
+{
+      background-image:url("../../Images/action_send.png"); 
+      display: inline-block; /*For IE*/
+      zoom: 1; /*For IE*/
+      display: inline; /*For IE*/
+      background-repeat:no-repeat; 
+      padding:0px 10px 0px 10px;
+}
+
+#left_menu_img_movie
+{
+      background-image:url("../../Images/m.gif"); 
+      display: inline-block; /*For IE*/
+      zoom: 1; /*For IE*/
+      display: inline; /*For IE*/
+      background-repeat:no-repeat; 
+      padding:0px 10px 0px 10px;
+}
+
+#left_menu_img_game
+{
+      background-image:url("../../Images/m.gif"); 
+      display: inline-block; /*For IE*/
+      zoom: 1; /*For IE*/
+      display: inline; /*For IE*/
+      background-repeat:no-repeat; 
+      padding:0px 10px 0px 10px;
+}

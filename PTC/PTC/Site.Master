@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PTC.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<link rel="shortcut icon" href="~/images/advertise.jpg"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            font-family: "Segoe UI";
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+    <div class="navbar navbar-fixed-top">
+    <div class="navbar-header"></div>
+    <div class="navbar-inner">
+          <asp:HyperLink ID="hlHome" runat="server" 
+                NavigateUrl="~/Default.aspx" Width="100px" Font-Size="15px" 
+                    CssClass="hyperlinkmenu" ForeColor="White" Font-Names="Segoe UI"><span class="down">Home</span></asp:HyperLink>
+
+                    <asp:HyperLink ID="hlAds" runat="server" 
+                NavigateUrl="~/AdsPackage.aspx" Width="100px" Font-Size="15px" 
+                    CssClass="hyperlinkmenu" ForeColor="White" Font-Names="Segoe UI"><span class="down">Ads Package</span></asp:HyperLink>
+
+                    <asp:HyperLink ID="hlAdsPackage" runat="server" 
+              CssClass="hyperlinkmenu" NavigateUrl="~/Ads.aspx" Width="100px" Font-Size="15px" 
+              ForeColor="White" Font-Names="Segoe UI"><span class="down">Ads</span></asp:HyperLink>
+
+                <asp:HyperLink ID="hlEarningArea" runat="server" CssClass="hyperlinkmenu" 
+              NavigateUrl="~/ViewAds.aspx" Width="100px" Font-Size="15px" 
+              ForeColor="White" Font-Names="Segoe UI"><span class="down">Earning Area</span></asp:HyperLink>
+
+                    <asp:HyperLink ID="hlAccount" runat="server" CssClass="hyperlinkmenu" 
+              NavigateUrl="~/Account.aspx" Width="100px" Font-Size="15px" 
+              ForeColor="White" Font-Names="Segoe UI"><span class="down">Account</span></asp:HyperLink>
+
+               <asp:HyperLink ID="hlAdmin" runat="server" CssClass="hyperlinkmenu" 
+              NavigateUrl="~/Account/Default.aspx" Width="100px" Font-Size="15px" 
+              ForeColor="White" Font-Names="Segoe UI"><span class="down">Admin</span></asp:HyperLink>
+               
+        </div>
+        </div>
+      
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    &nbsp;<span class="style1">online adsvertising</span></h1>
+            </div>
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            <div class="clear hideSkiplink">
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+        <div class="Footer">
+        
+    </div>
+    </form>
+</body>
+</html>

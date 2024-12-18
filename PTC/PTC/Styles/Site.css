@@ -1,0 +1,636 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: white;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+	margin-left: 0px;
+	text-align: center;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    width: 960px;
+    background-color: white;
+    margin: 50px auto 0px auto;
+    border: 1px solid #015075;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+	background-image	:	url(../../Images/menu_bg2.PNG);
+	background-repeat:repeat-x;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #465c71;
+    border: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+
+}
+
+.loginDisplay
+{
+    font-size: 15px;
+    font-family:Segoe UI;
+    text-align: right;
+    text-decoration: none;
+    padding: 1px;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+.loginDisplay a:hover
+{
+    color: white;
+    background-image	:url(../../Images/FooterBg.png);
+	background-repeat	:	repeat-x;
+}
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+/*Master page top Menu*/
+.navbar-header {
+ 
+   background: white url(./images/body_bg.gif) repeat-x scroll 0 -15px;
+}
+.navbar {
+  overflow: visible;
+  margin-bottom: 18px;
+  color: #333333;
+  position: relative;
+  z-index: 2;
+}
+.navbar-inner {
+	 padding-top: 5px;
+    min-height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f7f7f7;
+    background-image	:	url(../../Images/menu_bg2.PNG);
+	background-repeat	:	repeat;
+    background-repeat: repeat-x;
+	border: 1px solid ;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+.navbar .container {
+  width: auto;
+}
+.navbar-fixed-top
+{
+  top: 0;
+  position: fixed;
+  right: 193px;
+  left: 193px;
+  height:20px;
+  z-index: 1030;
+  margin-bottom: 0;
+
+}
+/*For Main Menu*/
+div.sys_main_logo 
+{
+    background-image: url('../../Images/header_bg.gif');
+    background-color: #f9f9f9;
+    position: relative;
+    z-index: 56;
+}
+div.sys_top_menu {
+    background:url("../../Images/tm_bg.png") repeat-x scroll center top transparent;
+    min-height: 31px;
+    z-index: 100;
+}
+div.sys_top_menu a, div.sys_top_menu a:link, div.sys_top_menu a:visited, div.sys_top_menu a:active, div.sys_top_menu b {
+    font-size: 12px;
+}
+table#topMenu {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+table#topMenu td.top {
+    border-right: 2px solid transparent;
+    padding: 0;
+    position: relative;
+	top: 0px;
+	left: 268px;
+	width: 202px;
+}
+table#topMenu td.right {
+    border-right: 0 none;
+}
+#topMenu .top ul.sub {
+    background:url("../../Images/tm_smenu_bg.png") repeat-y scroll left top transparent;
+    display: none;
+    height: auto;
+    list-style: none outside none;
+    margin: 0;
+    padding: 2px 0 0;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 190px;
+    z-index: 20;
+}
+#topMenu .top ul.sub li {
+    line-height: 33px;
+    margin: 0;
+    min-height: 33px;
+    width: 100%;
+}
+.main_elements {
+    left: 0;
+}
+#mmm {
+    border-collapse: collapse;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+}
+#topMenu td.top:hover ul.sub {
+    display: block;
+    visibility: visible;
+}
+#topMenu td.top a:hover ul.sub, #topMenu td.top:hover ul.sub {
+    position: absolute;
+    right: 0;
+}
+#topMenu ul.more_sub {
+    list-style: none outside none;
+    margin-left: 18px;
+    padding: 0;
+}
+#topMenu ul.sub li:hover {
+    background:url("../../Images/tm_sitem_act.png") no-repeat scroll 0 0 transparent;
+    vertical-align: middle;
+}
+#topMenu ul.sub ul.more_sub li:hover {
+    background:url("../../Images/tm_smenu_sitem_act.png") no-repeat scroll 0 0 transparent;
+}
+#topMenu ul.sub .more_sub li {
+    background-image: none;
+    overflow: hidden;
+}
+#topMenu .more_down, #topMenu .more_right {
+    height: 31px;
+    margin: 0;
+    vertical-align: middle;
+    width: 9px;
+}
+#topMenu .more_down {
+    background:url("../../Images/icons/tm_sitem_down.gif") no-repeat scroll left 0 transparent;
+    margin-top: 1px;
+}
+#topMenu .more_right {
+    background:url("../../Images/icons/tm_sitem_right.gif") no-repeat scroll left 0 transparent;
+    margin-top: 1px;
+}
+#topMenu {
+    background-image: none;
+}
+#topMenu td {
+    background-color: transparent;
+    height: 31px;
+    margin-right: 0;
+    vertical-align: middle;
+}
+#topMenu a, #topMenu b {
+    line-height: 31px;
+	margin-left: 3px;
+}
+.subMenusContainer .subMenuOvr .subMenuInfoKeeper a, .subMenusContainer .subMenuOvr .subMenuInfoKeeper a:link, .subMenusContainer .subMenuOvr .subMenuInfoKeeper a:visited, .subMenusContainer .subMenuOvr .subMenuInfoKeepe
+#topMenu a, #topMenu a:link, #topMenu a:visited, #topMenu b {
+    background:url("../../Images/tm_item_left.png") no-repeat scroll 0 center transparent;
+    border-width: 0;
+    color: #666666;
+    display: block;
+    font-weight: normal;
+    margin: 0 0 0 0px;
+    padding: 0 0 0 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ansform: capitalize;
+}
+th: 0;
+    color: #666666;
+    display: block;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 0 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#topMenu a:focus {
+    outline: 0 none;
+}
+#topMenu a:hover, #topMenu a:active {
+    color: #333333;
+}
+#topMenu td#tm_active a.top_link, #topMenu td#tm_active a.top_link:link, #topMenu td#tm_active a.top_link:visited, #topMenu td#tm_active a.top_link:active {
+    background:url("../../Images/tm_item_left_act.png") no-repeat scroll 0 center transparent;
+    color: #000000;
+}
+#topMenu td.top:hover a.top_link, #topMenu td.top:hover a.top_link:link, #topMenu td.top:hover a.top_link:visited, #topMenu td.top:hover a.top_link:active {
+    background:url("../../Images/tm_item_left_act.png") no-repeat scroll 0 center transparent;
+}
+#topMenu b {
+    color: #000000;
+}
+#topMenu a span.down, #topMenu b span.down {
+    background:no-repeat scroll right top transparent;
+    cursor: pointer;
+    display: block;
+    padding: 0 5px 0 0;
+    text-align: center;
+}
+#topMenu a span.down img, #topMenu b span.down img {
+    height: 16px;
+    margin: 8px auto 7px;
+    vertical-align: middle;
+    width: 16px;
+}
+#topMenu td.top:hover a span.down, #topMenu td.top:hover b span.down {
+
+}
+#topMenu td.top a:hover a span.down, #topMenu td.top a:hover b span.down {
+
+}
+#topMenu td#tm_active a span.down {
+
+}
+#topMenu ul.sub li a.menu_button {
+    background-image: none;
+    color: #666666;
+    cursor: pointer;
+    font-size: 12px;
+    height: 33px;
+    margin: 0 0 0 20px;
+    overflow: hidden;
+    padding-left: 0;
+    text-align: left;
+    width: 160px;
+}
+.more_down_tab_noimg {
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    width: 30px;
+}
+#topMenu .sub a.more_ntop_element:hover {
+    color: #333333;
+}
+#topMenu .sub a.more_top_element.active, #topMenu .sub a.more_ntop_element.active {
+    color: #333333;
+    font-weight: bold;
+}
+#topMenu .top ul.sub .li_last_round {
+    background:no-repeat scroll left top transparent;
+    font-size: 0;
+    height: 3px;
+    line-height: 0;
+    position: absolute;
+}
+#topMenu .top ul.sub .li_last_round:hover {
+    background: no-repeat scroll left top transparent;
+}
+
+/*End Menu*/
+
+
+/*Main Menu Images*/
+
+#main_menu_img_home
+{
+    background-image:url("../../Images/home.gif") ;
+    display: inline-block; /*For IE*/
+    zoom: 1; /*For IE*/
+    display: inline; /*For IE*/
+    background-repeat:no-repeat; 
+    padding:0px 10px 4px 10px;
+}
+
+#main_menu_img_profile
+{
+    background-image:url("../../Images/memeber_menu_profile.png") ;
+    display: inline-block; /*For IE*/
+    zoom: 1; /*For IE*/
+    display: inline; /*For IE*/
+    background-repeat:no-repeat; 
+    padding:0px 10px 4px 10px;
+}
+
+#main_menu_img_subscribe
+{
+    background-image:url("../../Images/icons/action_subscribe.png") ;
+    display: inline-block; /*For IE*/
+    zoom: 1; /*For IE*/
+    display: inline; /*For IE*/
+    background-repeat:no-repeat; 
+    padding:0px 10px 4px 10px;
+}
+
+#main_menu_img_message
+{
+    background-image:url("../../Images/memeber_menu_mail.png") ;
+    display: inline-block; /*For IE*/
+    zoom: 1; /*For IE*/
+    display: inline; /*For IE*/
+    background-repeat:no-repeat; 
+    padding:0px 10px 4px 10px;
+}
+/*End Main Menu Images*/
+
+.hyperlinkmenu
+{
+	text-decoration:none;
+	color:#FFFFFF;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.hyperlinkmenu:hover
+{
+	color:#FFFF99;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+    background-image	:url(../../Images/FooterBg.png);
+	background-repeat	:	repeat-x;
+	border: 1px solid ;
+	border-color:#1F77A3;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+.Footer
+{
+	background-image	:	url(../../Images/FooterBg.png);
+	height				:	25px;
+}

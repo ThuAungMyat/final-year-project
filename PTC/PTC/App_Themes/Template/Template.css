@@ -1,0 +1,376 @@
+﻿body {
+    background-color:#ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666666;
+    margin: 0;
+    padding: 0 0 50px;
+}
+
+#line
+{
+    background-image: url('../../Images/navigation_top_bg.gif'); 
+    height: 26px;
+    color: White;
+}
+
+#account_bg
+{
+	background-image:url('../../Images/account_bg.png');
+	background-repeat:no-repeat;
+	height:204px;
+	width:374px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+}
+
+#change_photo #divchange_photo
+{
+	visibility:hidden;
+}
+
+#change_photo:hover #divchange_photo
+{
+	visibility:visible;
+}
+
+#cover_image #change_cover
+{
+	visibility:hidden;
+}
+
+#cover_image:hover #change_cover
+{
+	visibility:visible;
+}
+
+#indexPhotoBorder {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 11px;
+    position: relative;
+}
+#indexPhotoBorder div.sys-notifications {
+    height: 81px;
+    top: 0;
+}
+#indexPhotoBorder .jl {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#indexPhotoLabel {
+    background: url("../../images/opSplash.png") repeat-x scroll left top transparent;
+}
+#indexPhotoLabel div.sys_title, #indexPhotoLabel div.label_thumb {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+#indexPhotoLabel div.label_thumb {
+    float: left;
+    padding-left: 10px;
+    position: relative;
+}
+#indexPhotoLabel div.label_thumbnail {
+    float: left;
+    padding-left: 11px;
+    padding-top: 7px;
+    position: relative;
+}
+div.sys_title {
+    height: 82px;
+    max-width: 680px;
+    overflow: hidden;
+    text-indent: 30px;
+}
+div.sys_promo {
+    bottom: 0;
+    line-height: 0;
+    position: absolute;
+    right: 0;
+}
+div.sys_promo div.sys_tm_actions {
+    float: none;
+    margin: 0 30px 20px 0;
+}
+.bodyBlock {
+    padding-top: 10px;
+}
+#indexPhoto {
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    height: 262px;
+    overflow: hidden;
+}
+#indexPhoto img {
+    position: absolute;
+}
+
+div.thumbnail_block {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+div.thumbnail_image, div.thumbnail_image_couple {
+    border: 1px solid #CCCCCC;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+div.thumbnail_image img {
+    background-color: #EDEDED;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+}
+div.thumbnail_image_couple img {
+    background-color: #EDEDED;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-color: white;
+    border-style: solid;
+}
+div.thumbnail_block img {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+div.thumbnail_image img.sys-online-offline {
+    background-color: transparent;
+    border: 0 none;
+}
+img.sys-online-offline {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+div.thumbnail_image_couple img.sys-online-offline {
+    background-color: transparent;
+}
+
+
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+
+.modalPopup p {
+    padding: 5px;
+}
+
+#main_frame
+{
+	border:0px solid #1b7ccf;	
+	width:100%;
+}
+
+#main
+{
+	border:0px solid #e5ebf4;	
+	width:100%;
+	height:500px;
+	-moz-border-radius:10px 10px 10px 10px;
+}
+
+/*#banner
+{
+	background:url('../../Images/banner_bg.gif');
+	border:0px solid #1b7ccf;	
+	width:100%;		
+	height:120px;
+}*/
+
+#menu
+{
+	border:0px solid #1b7ccf;	
+	width:100%;		
+	height:37px;	
+}	
+
+.clear_both {
+    clear: both;
+    font-size: 1px;
+}
+
+
+.poemdiv
+{
+	background-color:#ffffff;	
+	border:1px solid #e5ebf4;
+	height:90px;width:280px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.poemdiv:hover
+{
+    border:1px solid #b2c5e1;
+	background-color:#eef2f8;	
+}
+
+#site_map
+{
+	background:url('../../Images/site_map_bg01.gif');
+	border:0px solid #1b7ccf;	
+	width:100%;		
+	height:31px;	
+}
+
+#content
+{
+	margin-left:10px;
+	vertical-align:top;
+	margin-bottom:10px;
+	width:920px;
+	height:auto;
+	float:right;
+	border:0px solid #cccccc;		
+}
+
+#MasterContent
+{
+	margin-left:10px;
+	vertical-align:top;
+	margin-bottom:10px;
+	width:820px;
+	height:auto;
+	float:right;
+	border:0px solid #cccccc;		
+}
+
+#find
+{
+	float:left;
+	width:260px;
+	border:0px solid Red;			
+	background:#fff url('../../Images/main_content.gif');
+	height:115px;
+	background-repeat:no-repeat;
+}
+
+#submit
+{
+	float:right;
+	margin-left:20px;
+	width:260px;
+	border:0px solid Red;			
+	background:#fff url('../../Images/main_content1.gif');
+	height:115px;
+	background-repeat:no-repeat;
+}
+
+#middle
+{
+	border:0px solid #e5ebf4;
+	width:580px;
+	height:115px;	
+}
+
+.categories_header
+{
+	background:#fff url('../../Images/side_menu_header.gif');
+	background-repeat:no-repeat;
+	width:156px;
+	vertical-align:top;
+	border:1px solid #cccccc;	
+	-moz-border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	border-radius:5px 5px 0px 0px;	
+}
+
+#poems_categories
+{	
+	margin-top:10px;
+	border:0px solid #e5ebf4;
+	width:580px;
+	height:auto;		
+}
+
+#new_poems
+{
+	margin-top:10px;
+	border:0px solid #e5ebf4;
+	width:580px;	
+}
+
+#latest_photos
+{
+	float:right;
+	vertical-align:top;
+	margin-top:-117px;
+	margin-left:10px;
+	border:1px solid #cccccc;
+	-moz-border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	border-radius:5px 5px 0px 0px;	
+	width:300px;
+	height:250px;	
+}
+
+#related_movies
+{
+	float:right;
+	vertical-align:top;
+	margin-top:150px;
+	margin-right:-313px;
+	border:1px solid #cccccc;
+	-moz-border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	border-radius:5px 5px 0px 0px;	
+	width:302px;
+	height:auto;	
+}
+
+/*Model PopUp*/
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+
+/*Model PopUp*/
+
+#fotter
+{
+	margin:10px 10px 10px 10px;
+	/*background:#fff url('../../Images/fotter_bg.gif');*/
+	text-align:center;
+	color:Blue;
+	border:0px solid #e5ebf4;	
+	width:100%;		
+	height:100px;	
+	-moz-border-radius:10px 10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+}
+
+

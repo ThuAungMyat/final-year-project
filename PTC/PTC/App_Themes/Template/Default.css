@@ -1,0 +1,144 @@
+﻿
+#your_album 
+{
+	float:right;
+	margin-top:-00px;
+	margin-right:20px;
+}
+
+#new_album
+{
+	float:left;
+	margin-top:-12px;
+}
+
+/* DIV Hover display Links*/
+.comment .edit {
+   visibility: hidden;
+}  
+
+.comment:hover .edit {
+   visibility: visible;
+}  
+/* End DIV Hover display Links*/
+
+/* 1.1 SHIM */
+
+.column {
+	background-image: url(images/content-shim.gif);
+}
+
+.gradient {
+	background-image: url(images/content-shim-photo.gif);
+}
+
+.solid {
+	background-image: url(images/content-shim-none.gif);
+}
+
+/* 2 PAGE */
+
+.page {
+	background-repeat: repeat-y;
+	width:900px;
+	height:auto;
+	margin-top:5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+
+
+#resume h4, #links h4 {
+	margin-top: 0;
+	border-top: 1px solid #bababa;
+	padding-top: 1.0em;
+	position: absolute;
+	left: 37px;
+	width: 214px;
+}
+
+#resume #photo {
+	position: absolute;
+	left: 37px;
+	top: 20px;
+	width: 214px;
+}
+
+#resume .first {
+	margin-top: 0;
+	border-top: 1px solid #bababa;
+	padding-top: 1.5em;
+}
+
+
+
+.emptydata td {
+	padding: 50px;
+	color: #aeaeae;
+}
+
+/* 2.2 ALBUMS PAGE */
+
+#albums {
+	background-image: url(images/body-repeat-photo.gif);
+	padding: 14px 40px;
+	border-top: 1px solid #bababa;
+	width: 730px;
+}
+
+.view {
+	margin-left: auto;
+	margin-right: auto;
+	width: 686px;
+	text-align: center;
+}
+
+.view .photo-frame {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item {
+	padding: 10px 30px;
+	color: #B2B2B2;
+}
+
+.item h4 {
+	margin-bottom: 0.4em;
+}
+
+.nullpanel {
+	padding: 150px;
+	width: auto;
+	text-align: center;
+}
+
+/* 2.3 PHOTOS, DETAILS, ADMIN/DETAILS PAGE */
+
+#photos, #details, #admin-details {
+	background-image: url(images/body-repeat-photo.gif);
+	padding: 0;
+	width: 760px;
+}
+
+#photos .view, #admin-details .view {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.menub {
+	margin: 12px auto 5px auto;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.menub a:visited {
+	color: #d32525;
+}
+
+.photo_198 {
+	border: 4px solid #FFFFFF;
+}

@@ -1,0 +1,27 @@
+D:\MY PROJECT\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.BusinessLogic.dll
+D:\MY PROJECT\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.BusinessLogic.pdb
+D:\MY PROJECT\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.DataAccess.dll
+D:\MY PROJECT\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.Entities.dll
+D:\MY PROJECT\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.DataAccess.pdb
+D:\MY PROJECT\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.Entities.pdb
+D:\MY PROJECT\PTC\PTC\PTC.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+D:\MY PROJECT\PTC\PTC\PTC.BusinessLogic\obj\Debug\PTC.BusinessLogic.dll
+D:\MY PROJECT\PTC\PTC\PTC.BusinessLogic\obj\Debug\PTC.BusinessLogic.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.BusinessLogic.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.BusinessLogic.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.DataAccess.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.Entities.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.DataAccess.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.BusinessLogic\bin\Debug\PTC.Entities.pdb
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.BusinessLogic\obj\Debug\PTC.BusinessLogic.dll
+C:\Documents and Settings\Aung Myat Thu\Desktop\PTC\PTC\PTC.BusinessLogic\obj\Debug\PTC.BusinessLogic.pdb
+F:\My Project\PTC\PTC.BusinessLogic\bin\Debug\PTC.BusinessLogic.dll
+F:\My Project\PTC\PTC.BusinessLogic\bin\Debug\PTC.BusinessLogic.pdb
+F:\My Project\PTC\PTC.BusinessLogic\bin\Debug\PTC.DataAccess.dll
+F:\My Project\PTC\PTC.BusinessLogic\bin\Debug\PTC.Entities.dll
+F:\My Project\PTC\PTC.BusinessLogic\bin\Debug\PTC.DataAccess.pdb
+F:\My Project\PTC\PTC.BusinessLogic\bin\Debug\PTC.Entities.pdb
+F:\My Project\PTC\PTC.BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+F:\My Project\PTC\PTC.BusinessLogic\obj\Debug\PTC.BusinessLogic.dll
+F:\My Project\PTC\PTC.BusinessLogic\obj\Debug\PTC.BusinessLogic.pdb
